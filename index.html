@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elit Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>html{
+      scroll-behavior: smooth;
+    }</style>
+  </head>
+  <body style="scroll-behavior: smooth;">​
+    <header class="header container">
+      <!-- Logo -->
+      <h1 class="logo">Elite Shop</h1>
+      <!-- navigation -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#Products">Products</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- search -->
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Search products..."
+          class="search-input"
+        />
+        <button type="submit" class="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search-icon lucide-search"
+          >
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
+          </svg>
+        </button>
+      </div>
+      <!-- Cart -->
+      <div class="cart">
+        <!-- cart icon -->
+        <div class="cart-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+          >
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path
+              d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
+            />
+          </svg>
+          <!-- counter -->
+          <span class="cart-count">2</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="container">
+          <!-- hero title -->
+          <h3 class="hero-title">Welcome to Elite Shop Your Trusted Online Marketplace in Cambodia.</h3>
+          <p class="hero-description">
+            Your first step into web development starts here. Practice Grid,
+            Flexbox, and responsive design.
+          </p>
+          <div class="hero-actions">
+            <!-- actions -->
+            <a type="button" class= "btn-primary" a href="#shop">Shop Now </a></button>
+          </div>
+        </div>
+      </section>
+      <!-- category section -->
+      <section class="container">
+        <!-- title -->
+        <h2 class="category-title">Shop by Category</h2>
+        <!-- grid container -->
+        <div class="category-grid">
+          <div class="card category-electronics">Electronics</div>
+          <div class="card category-fashion">Fashion</div>
+          <div class="card category-home">Home & Garden</div>
+          <div class="card category-sports">Sports</div>
+        </div>
+      </section>
+      <!-- featured products -->
+      <section class="featured-container">
+        <!-- title -->
+        <h2 class="featured-title" id="shop">Featured Products</h2>
+        <!-- products grid -->
+        <div class="featured-grid">
+          <!-- product card -->
+          <div class="featured-card">
+            <!-- card image -->
+            <div class="card-image"></div>
+            <!-- card content -->
+      <div class="product-grid" id="Products">
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+          <img src="images/Headphone.jpg" alt="Headphone" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>Wireless Headphones</h3>
+            <p class="price">$99.00</p>
+            <!-- action -->
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/Sneaker.jpg" alt="Sneaker" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>Running Sneakers</h3>
+            <p class="price">$120.00</p>
+            <!-- action -->
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+          <img src="images/Iwatch.jpg" alt="Iwatch" class="card-img">
+        </div>
+          <div class="prod-info">
+            <h3>Smart Watch</h3>
+            <p class="price">$199.00</p>
+            <!-- action -->
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/Backpack.jpg" alt="Bag" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>Student Backpack</h3>
+            <p class="price">$45.00</p>
+            <!-- action -->
+            <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/Shirt.jpg" alt="shirt" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>Polo Shirt </h3>
+            <p class="price">$25.00</p>
+            <!-- action -->
+             <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/Backpack2.jpg" alt="Backpack2" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>LV Backpack</h3>
+            <p class="price">$200.20</p>
+            <!-- action -->
+             <button class="btn-add">Add ot Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/Backpack3.jpg" alt="Backpack3" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>SG Backpack</h3>
+            <p class="price">$90.10</p>
+            <!-- action -->
+             <button class="btn-add">Add ot Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/17Sliver.jpg" alt="17Pm" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>17PN Sliver</h3>
+            <p class="price">$1340.00</p>
+            <!-- action -->
+             <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/17Deepblue.jpg" alt="17ProMax" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>17PM DeepBlue</h3>
+            <p class="price">$1340.00</p>
+            <!-- action -->
+             <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+         <div class="product-card fade-in">
+          <div class="card-img-wrap">
+            <img src="images/17Orange.jpg" alt="17ProMax" class="card-img">
+          </div>
+          <div class="prod-info">
+            <h3>17PM Orange </h3>
+            <p class="price">$1340.00</p>
+            <!-- action -->
+             <button class="btn-add">Add to Cart</button>
+          </div>
+        </div>
+         <!-- end product card -->
+      </div>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="footer-grid container">
+        <!-- About -->
+        <section>
+          <h3>About Elit Shop</h3>
+          <p>
+            The perfect place to practice your HTML & CSS skills. Building the
+            future, one grid at a time.
+          </p>
+        </section>
+        <!-- links -->
+        <section>
+          <h3>Quick Links</h3>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </section>
+        <!-- social links -->
+        <section>
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/share/1Td56TvQNd/"
+                target="_blank"
+                ><img src="images/facebook.png" alt="Logo" class="Logo-ft"></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/share/1Td56TvQNd/"
+                target="_blank"
+                ><img src="images/Instagram.png" alt="Logo" class="Logo-ft"></a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@maroyy168" target="_blank">
+                <img src="images/tik-tok.png" alt="Logo" class="Logo-ft"></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- copyright -->
+      <div class="footer copyright">
+        <p>&copy; 2026 Elit Shop. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
